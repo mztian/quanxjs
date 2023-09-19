@@ -7,7 +7,7 @@
 
 [rewrite_local]
 #纯会员数据共享
-^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/mztian/quanxjs/new/mainyyzsck.js
+^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/mztian/quanxjs/new/main/yyzsck.js
 #修改个人用户信息
 #^https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
 #pdf获取 测试远程不行 放本地用吧
